@@ -35,7 +35,7 @@ margin-bottom: 8px;
 height: 36px;
 border: 0;
 border-radius: 4px;
-background-color: #3366ff;
+background-color: rgb(255, 174, 0);
 color: #ffff;
 font-size: 18px;
 }
@@ -49,7 +49,7 @@ border-radius: 4px;
 padding: 8px;
 }
 .button-link{
-color: #b4b8bb;
+color: #ffff;
 text-decoration: none;
 margin: 14px 0;
 font-size: 14px;

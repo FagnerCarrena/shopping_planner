@@ -42,7 +42,7 @@ console.log("erro ao logar")
         </form>
 
         <Link className='button-link'  to='/register'>
-        Não posui uma conta? Cadastre-se
+        Não possui uma conta? Cadastre-se
         </Link>
           </div>
     );
