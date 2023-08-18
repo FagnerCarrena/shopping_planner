@@ -32,8 +32,8 @@ console.log("erro ao logar")
 
     return (
       <div className="home-container">
-        <h1>Lista de Tarefas</h1>
-        <span>Gerencie sua agenda de forma fácil</span>
+        <h1>Lista Supermercado</h1>
+        <span>Gerencie suas compras com facilidade</span>
 
         <form className='form' onSubmit={handleLogin}>
           <input type='text' placeholder='digite sem email....' value={email} onChange={(e)=>setEmail(e.target.value)}/>

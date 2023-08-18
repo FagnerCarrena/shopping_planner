@@ -108,16 +108,16 @@ setEdit({})
 
 return(
     <div className='admin-container'>
-        <h1>Minhas Tarefas</h1>
+        <h1>Compras</h1>
 
         <form  className='form' onSubmit={handleRegister}>
             <textarea
-            placeholder='Digite sua terefa'
+            placeholder='Digite sua compra'
             value={tarefaInput}
             onChange={(e)=>setTarefaInput(e.target.value)}/>
        {Object.keys(edit).length > 0 ? (
          <button  style={{backgroundColor: '#6add39' }}  className='btn-register' type='submit'>Atualizar Tarefa</button>
-       ) : (<button className='btn-register' type='submit'>Registrar Tarefa</button>)}
+       ) : (<button className='btn-register' type='submit'>Registrar Compra</button>)}
         </form>
         {tarefas.map((item)=>(
          <article key={item.id} className='list'>
